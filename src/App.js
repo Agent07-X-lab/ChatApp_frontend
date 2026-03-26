@@ -120,7 +120,6 @@ const DecryptedText = ({ text }) => {
   
   useEffect(() => {
     let iteration = 0;
-    const maxIterations = 20;
     
     const interval = setInterval(() => {
       setDisplayText(text.split("").map((letter, index) => {
